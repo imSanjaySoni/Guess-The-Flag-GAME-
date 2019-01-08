@@ -1,0 +1,47 @@
+contries = [{
+	country:'India',
+	flag:'India',
+	options:['Pakistan','India','China','Srilanka']
+},
+{
+	country:'Pakistan',
+	flag:'Pakistan',
+	options:['India','Srilanka','Japan','Pakistan']
+},
+{
+	country:'Japan',
+	flag:'Japan',
+	options:['Japan','USA','Canada','China']
+},
+{
+	country:'Srilanka',
+	flag:'Srilanka',
+	options:['Pakistan','Srilanka','Japan','India']
+},
+{
+	country:'France',
+	flag:'France',
+	options:['USA','Japan','France','Australia']
+},
+{
+	country:'USA',
+	flag:'USA',
+	options:['Australia','France','China','USA']
+},
+{
+	country:'China',
+	flag:'China',
+	options:['Srilanka','Pakistan','China','India']
+},
+{
+	country:'Canada',
+	flag:'Canada',
+	options:['Canada','France','Japan','Srilanka']
+},
+{
+	country:'Australia',
+	flag:'Australia',
+	options:['Canada','Australia','USA','France']
+}];
+
+

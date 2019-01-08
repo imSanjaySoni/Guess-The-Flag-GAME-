@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+
+	<script type="text/javascript" src="countries.js"></script>
+</head>
+<body>
+	
+	<div class="startPage" id="sp">
+		<h2>GUESS</h1>
+		<h2 style="color: #ee7a16">FLAG</h2>
+		<button onclick="main()">PLAY</button>
+
+
+	</div>
+
+	<div class="scorePage" id="scorePage">
+		<h3>Your SCore</h3>
+		<h1 style="color: #ee7a16" id="scoreText">0</h1>
+		<button onclick="main()">PLAY AGAIN</button>
+		<button onclick="mute()" class="mute">MUTE</button>
+	</div>
+	
+	<div class="canvas">
+		
+		<!-- scoreBox -->
+		<div class="scoreBox" >
+			<span onclick="mute()" class="mute" style="float: left; cursor: pointer; ">&#128263;</span>
+			<span id="score">0</span>
+<!-- 			<div id="timeBar"></div>
+ -->		</div>
+
+		<!-- flagBOx -->
+		<div class="flagBox">
+			<div class="img" id="img"></div>
+		</div>
+
+		<!-- optionsBox -->
+		<div class="optionsBox1">
+			<button id="op1" class="options"></button>
+			<button id="op2" class="options"></button>
+
+		</div>
+		<div class="optionsBox2">
+			<button id="op3" class="options"></button>
+			<button id="op4" class="options"></button>
+		</div>
+	</div>
+<script type="text/javascript" src="game.js" charset="utf-8">
+
+</script>
+</body>
+</html>
